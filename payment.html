@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> Payment</title>
+    </head>
+    <style>
+        body{
+            background-image:url("garden.jpg");
+            background-size:cover;
+            background-position:center;
+            background-attachment:fixed;
+        }
+        p{
+          font-family:Arial, Helvetica, sans-serif
+          font-size:35px;
+        }
+        div{
+            background-color:gray;
+            color:white;
+            padding-left:5%;
+            position:fixed;
+            left:35%;
+            top:10%;
+        }
+        </style>
+        <body>
+            <div>
+                <p>credit card details</p>
+                CARD NUMBER<input type="text" value="xxxx-xxxx-xxxx-xxxx"><br>
+                CVV VALUE=<"***"> <br>
+                EXPIRY DATE<input type="date"><br>
+                EMAIL:<input type="text" value="Email"><br>
+
+                <input type="button" value="PAY" size="10" onclick="myfunction()"><br>
+                <script>
+                    function myfunction()
+                    {
+                        alert("ROOM IS BOOKED!! sent to your mail");
+                    }
+                    </script>
+                    </div>
+                    </body>
+</html>
